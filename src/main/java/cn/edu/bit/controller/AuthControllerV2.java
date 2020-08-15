@@ -27,8 +27,6 @@ public class AuthControllerV2 {
         sm9 = new SM9(sm9Curve);
     }
 
-    MasterKeyPair masterKeyPair = kgc.genSignMasterKeyPair();
-
     @RequestMapping("/test")
     public String test() {
         return "hello world";

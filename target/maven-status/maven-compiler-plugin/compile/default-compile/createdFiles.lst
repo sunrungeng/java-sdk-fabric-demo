@@ -38,4 +38,5 @@ cn\edu\bit\Application.class
 cn\edu\bit\gm\sm9\SM9CurveParameters.class
 cn\edu\bit\gm\GMProvider.class
 cn\edu\bit\gm\sm9\config\ConfigProperties.class
+cn\edu\bit\controller\AuthControllerV3.class
 cn\edu\bit\utils\CertUtils.class

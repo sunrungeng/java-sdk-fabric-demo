@@ -1,8 +1,7 @@
 package cn.edu.bit.controller;
 
-import cn.edu.bit.gm.sm9.*;
 import cn.edu.bit.utils.CertUtils;
-import cn.edu.bit.utils.Hex;
+import cn.edu.bit.utils.Init;
 import org.hyperledger.fabric.sdk.*;
 import org.hyperledger.fabric.sdk.security.CryptoSuite;
 import org.hyperledger.fabric_ca.sdk.HFCAClient;
@@ -15,31 +14,23 @@ import java.util.Properties;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/auth_back1")
 public class AuthController {
 
 
+    @RequestMapping("/init")
+    public String init() throws Exception {
+        Init.enroll();
+        Init.register();
+        return "Enroll And Register Success";
+    }
 
     @RequestMapping("/test")
     public String test() {
         return "hello world";
     }
 
-    @RequestMapping("/initLedger")
-    public void initLedger() throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
-        TransactionProposalRequest req = client.newTransactionProposalRequest();
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("initLedger");
 
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
-        // 提交给orderer节点
-        channel.sendTransaction(resps);
-    }
 
     @RequestMapping("/registerTop")
     public String registerTop(String ID, String MPK) throws Exception {
@@ -160,6 +151,22 @@ public class AuthController {
         channel.addOrderer(client.newOrderer("orderer", "grpc://localhost:7050"));
         channel.initialize();
         return channel;
+    }
+
+    @RequestMapping("/initLedger")
+    public void initLedger() throws Exception {
+        HFClient client = HFClient.createNewInstance();
+        Channel channel = initChannel(client);
+        TransactionProposalRequest req = client.newTransactionProposalRequest();
+        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
+        req.setChaincodeID(cid);
+        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
+        req.setFcn("initLedger");
+
+        // 发送proprosal
+        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
+        // 提交给orderer节点
+        channel.sendTransaction(resps);
     }
 
 

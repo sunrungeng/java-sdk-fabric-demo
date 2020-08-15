@@ -9,7 +9,6 @@ import org.hyperledger.fabric_ca.sdk.EnrollmentRequest;
 import org.hyperledger.fabric_ca.sdk.HFCAClient;
 import org.hyperledger.fabric_ca.sdk.RegistrationRequest;
 
-import java.net.MalformedURLException;
 import java.nio.file.Paths;
 import java.security.PrivateKey;
 import java.util.Properties;
