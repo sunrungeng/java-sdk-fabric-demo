@@ -1,22 +1,24 @@
 package cn.edu.bit.controller;
 
-import cn.edu.bit.utils.CertUtils;
 import cn.edu.bit.utils.Init;
-import org.hyperledger.fabric.sdk.*;
-import org.hyperledger.fabric.sdk.security.CryptoSuite;
-import org.hyperledger.fabric_ca.sdk.HFCAClient;
+import org.hyperledger.fabric.gateway.Contract;
+import org.hyperledger.fabric.gateway.Gateway;
+import org.hyperledger.fabric.gateway.Network;
+import org.hyperledger.fabric.gateway.Wallet;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Properties;
-import java.util.Set;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 @RestController
-@RequestMapping("/auth_back1")
+@RequestMapping("/auth")
 public class AuthController {
 
+    @RequestMapping("/test")
+    public String test() {
+        return "hello world";
+    }
 
     @RequestMapping("/init")
     public String init() throws Exception {
@@ -25,189 +27,97 @@ public class AuthController {
         return "Enroll And Register Success";
     }
 
-    @RequestMapping("/test")
-    public String test() {
-        return "hello world";
-    }
-
-
-
     @RequestMapping("/registerTop")
     public String registerTop(String ID, String MPK) throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
-        TransactionProposalRequest req = client.newTransactionProposalRequest();
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("registerTop");
-        req.setArgs(new String[]{ID, MPK});
 
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
-        // 提交给orderer节点
-        channel.sendTransaction(resps);
-        return "SUCCESS";
+        byte[] result;
+
+        // Load a file system based wallet for managing identities.
+        Path walletPath = Paths.get("wallet");
+        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+
+        // load a CCP
+        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+        Gateway.Builder builder = Gateway.createBuilder();
+        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+
+        // create a gateway connection
+        try (Gateway gateway = builder.connect()) {
+            // get the network and contract
+            Network network = gateway.getNetwork("mychannel");
+            Contract contract = network.getContract("Authentication");
+            result = contract.submitTransaction("registerTop", ID, MPK);
+        }
+        return new String(result);
     }
 
     @RequestMapping("/registerNotTop")
     public String registerNotTop(String IDi, String IDi_1) throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
-        TransactionProposalRequest req = client.newTransactionProposalRequest();
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("registerNotTop");
-        req.setArgs(new String[]{IDi, IDi_1});
+        byte[] result;
 
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
-        // 提交给orderer节点
-        channel.sendTransaction(resps);
-        return "SUCCESS";
+        // Load a file system based wallet for managing identities.
+        Path walletPath = Paths.get("wallet");
+        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+
+        // load a CCP
+        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+        Gateway.Builder builder = Gateway.createBuilder();
+        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+
+        // create a gateway connection
+        try (Gateway gateway = builder.connect()) {
+            // get the network and contract
+            Network network = gateway.getNetwork("mychannel");
+            Contract contract = network.getContract("Authentication");
+            result = contract.submitTransaction("registerNotTop", IDi, IDi_1);
+        }
+        return new String(result);
     }
 
     @RequestMapping("/queryMPK")
     public String queryMPK(String ID) throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
+        byte[] result;
 
-        // 构建proposal
-        QueryByChaincodeRequest req = client.newQueryProposalRequest();
-        // 指定要调用的chaincode
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("queryMPK");
-        req.setArgs(ID);
+        // Load a file system based wallet for managing identities.
+        Path walletPath = Paths.get("wallet");
+        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
 
-        String payload = "";
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.queryByChaincode(req);
-        for (ProposalResponse resp : resps) {
-            payload = new String(resp.getChaincodeActionResponsePayload());
-            System.out.println("response: " + payload);
+        // load a CCP
+        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+        Gateway.Builder builder = Gateway.createBuilder();
+        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+
+        // create a gateway connection
+        try (Gateway gateway = builder.connect()) {
+            // get the network and contract
+            Network network = gateway.getNetwork("mychannel");
+            Contract contract = network.getContract("Authentication");
+            result = contract.evaluateTransaction("queryMPK", ID);
         }
-        return payload;
+        return new String(result);
     }
 
     @RequestMapping("/verifyAndUploadPara")
     public String verifyAndUploadPara(String IDi, String IDi_1, String message, String signature) throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
-        TransactionProposalRequest req = client.newTransactionProposalRequest();
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("verifyAndUploadPara");
-        req.setArgs(new String[]{IDi, IDi_1, message, signature});
+        byte[] result;
 
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
-        // 提交给orderer节点
-        channel.sendTransaction(resps);
-        return "SUCCESS";
-    }
-
-    /**
-     * 用户注册, 保存证书和私钥
-     *
-     * @param username Fabric CA Admin用户的用户名
-     * @param password Fabric CA Admin用户的密码
-     * @param certDir  目录名, 用来保存证书和私钥
-     * @throws Exception
-     */
-    @RequestMapping("/enroll")
-    private static void enroll(String username, String password, String certDir) throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        CryptoSuite cs = CryptoSuite.Factory.getCryptoSuite();
-        client.setCryptoSuite(cs);
-
-        Properties prop = new Properties();
-        prop.put("verify", false);
-        HFCAClient caClient = HFCAClient.createNewInstance("http://localhost:7054", prop);
-        caClient.setCryptoSuite(cs);
-
-        // enrollment保存了证书和私钥
-        Enrollment enrollment = caClient.enroll(username, password);
-        System.out.println(enrollment.getCert());
-
-        // 保存到本地文件
-        CertUtils.saveEnrollment(enrollment, certDir, username);
-    }
-
-
-    private static Channel initChannel(HFClient client) throws Exception {
-        CryptoSuite cs = CryptoSuite.Factory.getCryptoSuite();
-        client.setCryptoSuite(cs);
-        client.setUserContext(new AuthUser("admin", CertUtils.loadEnrollment("cert", "admin")));
-
-        // 初始化channel
-        Channel channel = client.newChannel("mychannel");
-        channel.addPeer(client.newPeer("peer", "grpc://localhost:7051"));
-
-        // 指定排序节点地址, 无论是后面执行查询还是更新都必须指定排序节点
-        channel.addOrderer(client.newOrderer("orderer", "grpc://localhost:7050"));
-        channel.initialize();
-        return channel;
-    }
-
-    @RequestMapping("/initLedger")
-    public void initLedger() throws Exception {
-        HFClient client = HFClient.createNewInstance();
-        Channel channel = initChannel(client);
-        TransactionProposalRequest req = client.newTransactionProposalRequest();
-        ChaincodeID cid = ChaincodeID.newBuilder().setName("Authentication").build();
-        req.setChaincodeID(cid);
-        req.setChaincodeLanguage(TransactionRequest.Type.JAVA);
-        req.setFcn("initLedger");
-
-        // 发送proprosal
-        Collection<ProposalResponse> resps = channel.sendTransactionProposal(req);
-        // 提交给orderer节点
-        channel.sendTransaction(resps);
+        // Load a file system based wallet for managing identities.
+        Path walletPath = Paths.get("wallet");
+        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+        // load a CCP
+        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+        Gateway.Builder builder = Gateway.createBuilder();
+        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+        // create a gateway connection
+        try (Gateway gateway = builder.connect()) {
+            // get the network and contract
+            Network network = gateway.getNetwork("mychannel");
+            Contract contract = network.getContract("Authentication");
+            result = contract.submitTransaction("verifyAndUploadPara", IDi, IDi_1, message, signature);
+        }
+        return new String(result);
     }
 
 
 }
 
-class AuthUser implements User {
-    private String name;
-    private Enrollment enrollment;
-
-    public AuthUser(String name, Enrollment enrollment) {
-        this.name = name;
-        this.enrollment = enrollment;
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
-    }
-
-    @Override
-    public Set<String> getRoles() {
-        return Collections.emptySet();
-    }
-
-    @Override
-    public String getAccount() {
-        return "";
-    }
-
-    @Override
-    public String getAffiliation() {
-        return "";
-    }
-
-    @Override
-    public Enrollment getEnrollment() {
-        return this.enrollment;
-    }
-
-    @Override
-    public String getMspId() {
-        return "Org1MSP";
-    }
-}
