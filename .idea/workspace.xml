@@ -7,89 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba2ddbb0-2ec3-4756-b4b6-4d1e508dddf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/t1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/bcprov-jdk15on-159.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jpbc-api-2.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jpbc-plaf-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/GMProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm3/SM3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm4/SM4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/G1KeyPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/G1PrivateKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/G1PublicKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/KGC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/KGCWithStandardTestKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterKeyPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPrivateKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPublicKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/PrivateKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/PrivateKeyType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultCipherText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultEncapsulate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultEncapsulateCipherText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultKeyExchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultSignature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Curve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9CurveParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9WithStandardTestKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/config/ConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9Pairing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9RatePairingMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/signal/MessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/signal/SignalType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Hex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BOOT-INF/lib/bcprov-jdk15on-159.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BOOT-INF/lib/jpbc-api-2.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BOOT-INF/lib/jpbc-plaf-2.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthControllerV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthControllerV3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/GMProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm3/SM3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm4/SM4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/G1KeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/G1PrivateKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/G1PublicKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/KGC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/KGCWithStandardTestKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/MasterKeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/MasterPrivateKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/MasterPublicKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/PrivateKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/PrivateKeyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/ResultCipherText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/ResultEncapsulate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/ResultEncapsulateCipherText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/ResultKeyExchange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/ResultSignature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/SM9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/SM9Curve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/SM9CurveParameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/SM9Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/SM9WithStandardTestKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/config/ConfigProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/pairing/SM9Pairing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/pairing/SM9RatePairingMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/signal/MessageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/gm/sm9/signal/SignalType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/utils/Hex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="2436">
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -127,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Init.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1235">
+            <state relative-caret-position="1120">
               <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,11 +64,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="672">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/t1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -164,6 +128,7 @@
       <find>Authuser</find>
       <find>cn.edu.bit.util</find>
       <find>initChannel</find>
+      <find>logback</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -188,7 +153,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Init.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV3.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV2.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/Common/JsonView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/Common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/t1.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" />
       </list>
     </option>
@@ -224,8 +196,8 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,7 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,7 +268,29 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="bit" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -308,12 +303,24 @@
               <item name="bit" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,31 +334,31 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597483701763" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jpbc-plaf-2.0.0.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597596812506" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../keyR&amp;D/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.460177" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\chaincode\java_fabric_demo" />
-      <recent name="D:\code\chaincode\java_fabric_demo\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\Common" />
+      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit" />
+      <recent name="D:\code\chaincode\java_fabric_demo\libs" />
+      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\controller" />
+      <recent name="D:\code\chaincode\java_fabric_demo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.edu.bit.controller" />
       <recent name="cn.edu.bit" />
       <recent name="cn.edu.bit.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit" />
-      <recent name="D:\code\chaincode\java_fabric_demo\libs" />
-      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\controller" />
-      <recent name="D:\code\chaincode\java_fabric_demo\src\main\resources" />
-      <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\chaincode\java_fabric_demo" />
+      <recent name="D:\code\chaincode\java_fabric_demo\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +373,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.t1">
+    <configuration name="t1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="t1" />
+      <module name="java_fabric_demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java_fabric_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.bit.Application" />
@@ -451,17 +465,21 @@
       <workItem from="1597280709477" duration="18296000" />
       <workItem from="1597414494419" duration="3472000" />
       <workItem from="1597420307151" duration="8666000" />
+      <workItem from="1597490636159" duration="718000" />
+      <workItem from="1597593630771" duration="3173000" />
+      <workItem from="1597651824869" duration="1312000" />
+      <workItem from="1597679052332" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50109000" />
+    <option name="totallyTimeSpent" value="56964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3116987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23927039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -471,7 +489,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66368717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57877094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,88 +591,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/config/ConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/G1PublicKey.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultEncapsulateCipherText.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/signal/SignalType.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultCipherText.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterKeyPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/PrivateKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPrivateKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Curve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/GMProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9Pairing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/config/ConfigProperties.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/G1PublicKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/masterpublickey/MasterPublicKeyHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultEncapsulateCipherText.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/signal/SignalType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultCipherText.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterKeyPair.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/PrivateKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPrivateKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Curve.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/GMProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9Pairing.java" />
     <entry file="jar://$PROJECT_DIR$/src/libs/jpbc-plaf-2.0.0.jar!/META-INF/maven/it.unisa.dia.gas/jpbc-plaf/pom.xml" />
     <entry file="jar://$PROJECT_DIR$/src/libs/jpbc-api-2.0.0.jar!/META-INF/maven/it.unisa.dia.gas/jpbc-api/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9RatePairingMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/pairing/SM9RatePairingMap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -662,75 +614,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/jpbc-plaf-2.0.0.jar!/it/unisa/dia/gas/plaf/jpbc/field/curve/CurveElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPublicKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultSignature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9CurveParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/KGCWithStandardTestKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Hex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3134">
-          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/jpbc-plaf-2.0.0.jar!/it/unisa/dia/gas/plaf/jpbc/field/curve/CurveElement.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/MasterPublicKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/ResultSignature.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/SM9CurveParameters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/gm/sm9/KGCWithStandardTestKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Hex.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric/fabric-gateway-java/1.4.2/fabric-gateway-java-1.4.2.jar!/org/hyperledger/fabric/gateway/Contract.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -738,9 +629,1558 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV2.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="8172.584060388868" y="1220.0">cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT</node>
+            <node x="1160.7102508650596" y="1113.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE</node>
+            <node x="2664.1269175317257" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE</node>
+            <node x="3014.4185841983926" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE</node>
+            <node x="2903.0435841983926" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="2563.3769175317257" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE</node>
+            <node x="2400.3769175317257" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="2676.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="2555.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.29</node>
+            <node x="2856.4185841983926" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1</node>
+            <node x="3086.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="2958.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
+            <node x="2629.8769175317257" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29</node>
+            <node x="2837.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="1656.2499999999995" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="458.3769175317266" y="976.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE</node>
+            <node x="439.375" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1</node>
+            <node x="575.8144175317266" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1</node>
+            <node x="327.5327161256628" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1</node>
+            <node x="326.0" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1</node>
+            <node x="558.0" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1</node>
+            <node x="0.0" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1</node>
+            <node x="1414.3769175317257" y="976.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE</node>
+            <node x="1332.2499999999995" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.29</node>
+            <node x="1523.4999999999995" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.29</node>
+            <node x="1259.4999999999995" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.29</node>
+            <node x="1883.1269175317257" y="976.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE</node>
+            <node x="1719.4999999999995" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/jakarta.validation:jakarta.validation-api:jar:2.0.1</node>
+            <node x="1940.4999999999995" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final</node>
+            <node x="2064.7499999999995" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
+            <node x="1929.7499999999995" y="682.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/com.fasterxml:classmate:jar:1.5.1</node>
+            <node x="801.0" y="799.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE</node>
+            <node x="949.0" y="234.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE</node>
+            <node x="926.0019175317257" y="976.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE</node>
+            <node x="1206.9999999999995" y="331.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE</node>
+            <node x="2383.4870152963144" y="438.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE</node>
+            <node x="1012.0" y="331.0">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE</node>
+            <node x="3667.1685841983926" y="1113.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE</node>
+            <node x="3184.2935841983926" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE</node>
+            <node x="3017.2935841983926" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE</node>
+            <node x="4752.479166666666" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="5066.226147223584" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="5442.668584198393" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="5487.668584198393" y="575.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="4730.479166666666" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="5254.729166666666" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2</node>
+            <node x="5250.229166666666" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2/jakarta.activation:jakarta.activation-api:jar:1.2.1</node>
+            <node x="3998.0435841983926" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2</node>
+            <node x="4173.668584198393" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2</node>
+            <node x="4066.5386472235846" y="438.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0</node>
+            <node x="3691.291666666666" y="575.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.opentest4j:opentest4j:jar:1.2.0</node>
+            <node x="3832.291666666666" y="575.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2</node>
+            <node x="4171.479166666666" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2</node>
+            <node x="3863.0435841983926" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2</node>
+            <node x="3632.166666666666" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2</node>
+            <node x="4532.479166666666" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0</node>
+            <node x="5791.549515296314" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.assertj:assertj-core:jar:3.13.2</node>
+            <node x="3500.166666666666" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.hamcrest:hamcrest:jar:2.1</node>
+            <node x="4851.479166666666" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0</node>
+            <node x="5293.668584198393" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy:jar:1.10.4</node>
+            <node x="5093.668584198393" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy-agent:jar:1.10.4</node>
+            <node x="4920.665564755311" y="682.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="4396.479166666666" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="4385.479166666666" y="799.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="1776.6428138902515" y="117.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE</node>
+            <node x="1785.1428138902515" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE</node>
+            <node x="3428.166666666666" y="234.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-test:jar:5.2.2.RELEASE</node>
+            <node x="2735.3769175317257" y="976.0">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3</node>
+            <node x="8234.834060388868" y="976.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7</node>
+            <node x="7835.782716125663" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0</node>
+            <node x="7324.706084198392" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0</node>
+            <node x="7237.956084198392" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/com.google.android:annotations:jar:4.1.1.4</node>
+            <node x="7389.956084198392" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.perfmark:perfmark-api:jar:0.17.0</node>
+            <node x="7557.831084198392" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-api:jar:0.21.0</node>
+            <node x="7569.831084198392" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-contrib-grpc-metrics:jar:0.21.0</node>
+            <node x="7940.081084198391" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final</node>
+            <node x="7896.831084198392" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final</node>
+            <node x="5858.665564755311" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0</node>
+            <node x="6190.288647223584" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0</node>
+            <node x="6219.540564755311" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/io.grpc:grpc-context:jar:1.23.0</node>
+            <node x="7431.956084198392" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/com.google.code.findbugs:jsr305:jar:3.0.2</node>
+            <node x="5954.540564755311" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/org.codehaus.mojo:animal-sniffer-annotations:jar:1.17</node>
+            <node x="5624.668584198393" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.protobuf:protobuf-java:jar:3.9.0</node>
+            <node x="5779.918584198393" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android</node>
+            <node x="5613.668584198393" y="331.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android/org.checkerframework:checker-compat-qual:jar:2.5.2</node>
+            <node x="5838.668584198393" y="331.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="6099.106084198393" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.api.grpc:proto-google-common-protos:jar:1.12.0</node>
+            <node x="5801.668584198393" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-protobuf-lite:jar:1.23.0</node>
+            <node x="6393.106084198393" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-stub:jar:1.23.0</node>
+            <node x="9651.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-tcnative-boringssl-static:jar:2.0.28.Final</node>
+            <node x="8517.667393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final</node>
+            <node x="8220.500727055534" y="0.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final</node>
+            <node x="8262.572155626964" y="117.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final</node>
+            <node x="8304.393584198391" y="234.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final</node>
+            <node x="8457.500727055534" y="117.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final/io.netty:netty-resolver:jar:4.1.43.Final</node>
+            <node x="8130.831084198392" y="331.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final</node>
+            <node x="8399.372750865059" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final</node>
+            <node x="8198.831084198391" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final</node>
+            <node x="7158.706084198392" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java:jar:3.10.0</node>
+            <node x="6879.706084198392" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0</node>
+            <node x="6951.706084198392" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.guava:guava:jar:28.0-android</node>
+            <node x="6629.168584198393" y="438.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.errorprone:error_prone_annotations:jar:2.3.2</node>
+            <node x="6921.706084198392" y="575.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.code.gson:gson:jar:2.8.6</node>
+            <node x="8822.167393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.bouncycastle:bcpkix-jdk15on:jar:1.62</node>
+            <node x="8820.667393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.bouncycastle:bcpkix-jdk15on:jar:1.62/org.bouncycastle:bcprov-jdk15on:jar:1.62</node>
+            <node x="7076.706084198392" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-logging:commons-logging:jar:1.2</node>
+            <node x="8663.167393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-cli:commons-cli:jar:1.4</node>
+            <node x="7998.4124999999985" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.commons:commons-compress:jar:1.19</node>
+            <node x="9277.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-io:commons-io:jar:2.6</node>
+            <node x="6528.106084198393" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:log4j:jar:1.2.17</node>
+            <node x="6533.706084198392" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:apache-log4j-extras:jar:1.2.17</node>
+            <node x="9940.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10</node>
+            <node x="9866.417393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10/org.apache.httpcomponents:httpcore:jar:4.4.12</node>
+            <node x="9992.417393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10/commons-codec:commons-codec:jar:1.13</node>
+            <node x="6745.706084198392" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.glassfish:javax.json:jar:1.1.4</node>
+            <node x="4779.665564755311" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.yaml:snakeyaml:jar:1.25</node>
+            <node x="9066.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0</node>
+            <node x="9001.667393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0/org.apache.commons:commons-math3:jar:3.6.1</node>
+            <node x="9193.667393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0/com.google.guava:guava:jar:23.0</node>
+            <node x="10222.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.xml.bind:jaxb-api:jar:2.3.1</node>
+            <node x="10180.417393722202" y="682.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.xml.bind:jaxb-api:jar:2.3.1/javax.activation:javax.activation-api:jar:1.2.0</node>
+            <node x="9434.917393722202" y="799.0">org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="8162.584060388868" y="1113.0">org.hyperledger.fabric:fabric-gateway-java:jar:1.4.2</node>
+            <node x="10528.917393722202" y="1113.0">org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="7342.267393722202" y="1113.0">org.slf4j:slf4j-log4j12:jar:1.7.12</node>
+            <node x="7388.767393722202" y="976.0">org.slf4j:slf4j-log4j12:jar:1.7.12/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="5937.544179436488" y="1113.0">org.apache.commons:commons-lang3:jar:3.8.1</node>
+            <node x="10361.917393722202" y="1113.0">net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
+            <node x="10339.417393722202" y="976.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="10344.917393722202" y="799.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="9084.962015296314" y="976.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="10698.417393722202" y="976.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="9307.962015296314" y="976.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.2</node>
+            <node x="10569.417393722202" y="976.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="10545.917393722202" y="799.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="8886.962015296314" y="1113.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12</node>
+            <node x="8899.962015296314" y="976.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12/org.codehaus.jackson:jackson-core-asl:jar:1.9.12</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="3026.0435841983926" y="662.0" />
+              <point x="3079.9185841983926" y="662.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/com.fasterxml:classmate:jar:1.5.1">
+              <point x="-46.75" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-cli:commons-cli:jar:1.4">
+              <point x="19.25" y="-18.5" />
+              <point x="8331.084060388868" y="886.0" />
+              <point x="8732.667393722202" y="886.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1">
+              <point x="84.0" y="-18.5" />
+              <point x="2773.3769175317257" y="642.0" />
+              <point x="2925.4185841983926" y="642.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="1099.4999999999995" y="204.0" />
+              <point x="1821.4428138902517" y="204.0" />
+              <point x="-19.199999999999818" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2">
+              <point x="0.0" y="-18.5" />
+              <point x="4063.5435841983926" y="946.0" />
+              <point x="4160.979166666666" y="946.0" />
+              <point x="4160.979166666666" y="759.0" />
+              <point x="4234.043584198393" y="759.0" />
+              <point x="-20.125" y="18.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.12" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:log4j:jar:1.2.17">
+              <point x="-33.25" y="-18.5" />
+              <point x="7375.517393722202" y="1093.0" />
+              <point x="6342.791666666666" y="1093.0" />
+              <point x="6342.791666666666" y="769.0" />
+              <point x="6541.106084198393" y="769.0" />
+              <point x="-26.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/jakarta.validation:jakarta.validation-api:jar:2.0.1">
+              <point x="-89.33333333333303" y="-18.5" />
+              <point x="1927.7935841983926" y="926.0" />
+              <point x="1819.9999999999995" y="926.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0">
+              <point x="-3.849999999999909" y="-18.5" />
+              <point x="8307.984060388868" y="866.0" />
+              <point x="7896.282716125663" y="866.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5">
+              <point x="93.0" y="-18.5" />
+              <point x="1631.3769175317257" y="926.0" />
+              <point x="1708.9999999999995" y="926.0" />
+              <point x="-52.75" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final">
+              <point x="11.550000000000182" y="-18.5" />
+              <point x="8323.384060388868" y="876.0" />
+              <point x="8652.667393722202" y="876.0" />
+              <point x="45.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-stub:jar:1.23.0">
+              <point x="-57.75" y="-18.5" />
+              <point x="8254.084060388868" y="936.0" />
+              <point x="6501.356084198393" y="936.0" />
+              <point x="6501.356084198393" y="759.0" />
+              <point x="6450.606084198393" y="759.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0/org.apache.commons:commons-math3:jar:3.6.1">
+              <point x="-47.75" y="-18.5" />
+              <point x="9114.667393722202" y="779.0" />
+              <point x="9087.667393722202" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="0.0" y="-18.5" />
+              <point x="3958.0435841983926" y="739.0" />
+              <point x="4072.791666666666" y="739.0" />
+              <point x="4072.791666666666" y="555.0" />
+              <point x="4147.538647223584" y="555.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="-52.333333333333485" y="-18.5" />
+              <point x="8330.560250865059" y="214.0" />
+              <point x="8348.71501276982" y="214.0" />
+              <point x="19.142857142857338" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final">
+              <point x="46.75" y="-18.5" />
+              <point x="2080.7499999999995" y="779.0" />
+              <point x="2136.7499999999995" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.hamcrest:hamcrest:jar:2.1">
+              <point x="-23.785714285714675" y="-18.5" />
+              <point x="3754.382869912678" y="1043.0" />
+              <point x="3555.666666666666" y="1043.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-contrib-grpc-metrics:jar:0.21.0">
+              <point x="47.916666666666515" y="-18.5" />
+              <point x="7430.122750865059" y="662.0" />
+              <point x="7717.331084198392" y="662.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1">
+              <point x="-56.25" y="-18.5" />
+              <point x="514.6269175317266" y="946.0" />
+              <point x="431.5" y="946.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0">
+              <point x="50.0" y="-18.5" />
+              <point x="4682.479166666666" y="946.0" />
+              <point x="4887.229166666666" y="946.0" />
+              <point x="-35.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2">
+              <point x="69.0" y="-18.5" />
+              <point x="3804.666666666666" y="662.0" />
+              <point x="3889.791666666666" y="662.0" />
+              <point x="-57.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric:fabric-gateway-java:jar:1.4.2" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7">
+              <point x="0.0" y="-18.5" />
+              <point x="8258.584060388868" y="1093.0" />
+              <point x="8273.334060388868" y="1093.0" />
+              <point x="-38.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE">
+              <point x="-70.25" y="-18.5" />
+              <point x="61.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0">
+              <point x="30.0" y="-18.5" />
+              <point x="5963.665564755311" y="769.0" />
+              <point x="6088.606084198393" y="769.0" />
+              <point x="6088.606084198393" y="662.0" />
+              <point x="6229.663647223584" y="662.0" />
+              <point x="-13.125" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/io.grpc:grpc-context:jar:1.23.0">
+              <point x="0.0" y="-18.5" />
+              <point x="6242.788647223584" y="535.0" />
+              <point x="6289.040564755311" y="535.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="-28.5" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE">
+              <point x="-56.5" y="-18.5" />
+              <point x="1217.2102508650596" y="1083.0" />
+              <point x="864.5" y="1083.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="28.5" y="-18.5" />
+              <point x="4837.979166666666" y="956.0" />
+              <point x="5127.226147223584" y="956.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.glassfish:javax.json:jar:1.1.4">
+              <point x="-34.65000000000009" y="-18.5" />
+              <point x="8277.184060388869" y="906.0" />
+              <point x="6802.706084198392" y="906.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="15.0" y="-18.5" />
+              <point x="8622.667393722202" y="662.0" />
+              <point x="8631.042393722202" y="662.0" />
+              <point x="8631.042393722202" y="301.0" />
+              <point x="8448.310250865059" y="301.0" />
+              <point x="65.41666666666652" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0">
+              <point x="-65.44999999999982" y="-18.5" />
+              <point x="8246.384060388868" y="946.0" />
+              <point x="5933.665564755311" y="946.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="3267.2935841983926" y="662.0" />
+              <point x="3123.5852508650596" y="662.0" />
+              <point x="43.66666666666697" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.commons:commons-compress:jar:1.19">
+              <point x="3.849999999999909" y="-18.5" />
+              <point x="8315.684060388869" y="856.0" />
+              <point x="8095.9124999999985" y="856.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE">
+              <point x="13.16666666666697" y="-18.5" />
+              <point x="1018.1685841983926" y="906.0" />
+              <point x="1055.75" y="906.0" />
+              <point x="-43.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1">
+              <point x="43.25" y="-18.5" />
+              <point x="569.125" y="662.0" />
+              <point x="624.8144175317266" y="662.0" />
+              <point x="-49.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.29">
+              <point x="31.0" y="-18.5" />
+              <point x="1569.3769175317257" y="926.0" />
+              <point x="1610.9999999999995" y="926.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1">
+              <point x="-18.75" y="-18.5" />
+              <point x="552.1269175317266" y="956.0" />
+              <point x="547.5" y="956.0" />
+              <point x="21.625" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="44.0" y="-18.5" />
+              <point x="8240.831084198391" y="301.0" />
+              <point x="8343.643584198391" y="301.0" />
+              <point x="-39.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.xml.bind:jaxb-api:jar:2.3.1" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.xml.bind:jaxb-api:jar:2.3.1/javax.activation:javax.activation-api:jar:1.2.0">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="53.66666666666606" y="-18.5" />
+              <point x="4307.835250865059" y="662.0" />
+              <point x="4312.195348629648" y="662.0" />
+              <point x="4312.195348629648" y="555.0" />
+              <point x="4179.938647223584" y="555.0" />
+              <point x="32.399999999999636" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1">
+              <point x="-93.75" y="-18.5" />
+              <point x="477.1269175317266" y="956.0" />
+              <point x="153.0" y="956.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3">
+              <point x="-103.07142857142844" y="-18.5" />
+              <point x="3675.097155626964" y="1093.0" />
+              <point x="2804.3769175317257" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1">
+              <point x="-43.25" y="-18.5" />
+              <point x="482.625" y="662.0" />
+              <point x="413.7827161256628" y="662.0" />
+              <point x="17.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE">
+              <point x="-94.16666666666697" y="-18.5" />
+              <point x="1179.5435841983926" y="1093.0" />
+              <point x="570.8769175317266" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE">
+              <point x="-15.58333333333303" y="-18.5" />
+              <point x="2742.0435841983926" y="749.0" />
+              <point x="2689.3769175317257" y="749.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.errorprone:error_prone_annotations:jar:2.3.2">
+              <point x="-66.375" y="-18.5" />
+              <point x="6901.831084198392" y="779.0" />
+              <point x="6743.168584198393" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="1019.0" y="194.0" />
+              <point x="1808.6428138902515" y="194.0" />
+              <point x="-32.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1">
+              <point x="-74.33333333333303" y="-18.5" />
+              <point x="595.166666666667" y="779.0" />
+              <point x="590.75" y="779.0" />
+              <point x="64.875" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="2017.1269175317257" y="926.0" />
+              <point x="2033.9999999999995" y="926.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE">
+              <point x="-76.44444444444434" y="-18.5" />
+              <point x="8182.139615944424" y="1200.0" />
+              <point x="1273.7102508650596" y="1200.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.29">
+              <point x="-93.0" y="-18.5" />
+              <point x="1445.3769175317257" y="926.0" />
+              <point x="1380.9999999999995" y="926.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE">
+              <point x="65.83333333333303" y="-18.5" />
+              <point x="1070.8352508650587" y="926.0" />
+              <point x="1248.9999999999995" y="926.0" />
+              <point x="1248.9999999999995" y="555.0" />
+              <point x="2421.4870152963144" y="555.0" />
+              <point x="-38.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1">
+              <point x="74.33333333333303" y="-18.5" />
+              <point x="743.833333333333" y="779.0" />
+              <point x="729.5019175317266" y="779.0" />
+              <point x="729.5019175317266" y="662.0" />
+              <point x="722.8144175317266" y="662.0" />
+              <point x="49.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="0.0" y="-18.5" />
+              <point x="3947.291666666666" y="545.0" />
+              <point x="4115.1386472235845" y="545.0" />
+              <point x="-32.399999999999636" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE">
+              <point x="70.25" y="-18.5" />
+              <point x="3228.0435841983926" y="956.0" />
+              <point x="3225.7935841983926" y="956.0" />
+              <point x="-41.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.opentest4j:opentest4j:jar:1.2.0">
+              <point x="0.0" y="-18.5" />
+              <point x="3735.666666666666" y="662.0" />
+              <point x="3721.541666666666" y="662.0" />
+              <point x="-30.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="-31.75" y="-18.5" />
+              <point x="832.75" y="779.0" />
+              <point x="835.3769175317266" y="779.0" />
+              <point x="835.3769175317266" y="174.0" />
+              <point x="1783.0428138902512" y="174.0" />
+              <point x="-57.600000000000364" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="8382.893584198391" y="204.0" />
+              <point x="8447.000727055534" y="204.0" />
+              <point x="8447.000727055534" y="87.0" />
+              <point x="8315.222949277757" y="87.0" />
+              <point x="17.22222222222217" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE">
+              <point x="56.5" y="-18.5" />
+              <point x="1330.2102508650596" y="1083.0" />
+              <point x="2017.1269175317257" y="1083.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android">
+              <point x="-42.0" y="-18.5" />
+              <point x="6200.788647223584" y="555.0" />
+              <point x="5852.418584198393" y="555.0" />
+              <point x="29.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="23.785714285713766" y="-18.5" />
+              <point x="3801.9542984841064" y="1043.0" />
+              <point x="4454.479166666666" y="1043.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-test:jar:5.2.2.RELEASE">
+              <point x="-39.64285714285688" y="-18.5" />
+              <point x="3738.5257270555358" y="1053.0" />
+              <point x="3489.666666666666" y="1053.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2">
+              <point x="7.928571428570649" y="-18.5" />
+              <point x="3786.0971556269633" y="1033.0" />
+              <point x="4063.5435841983926" y="1033.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final">
+              <point x="68.40000000000009" y="-18.5" />
+              <point x="8352.731084198393" y="555.0" />
+              <point x="8435.622750865059" y="555.0" />
+              <point x="-36.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="0.0" y="-18.5" />
+              <point x="2689.3769175317257" y="525.0" />
+              <point x="2887.9870152963144" y="525.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final">
+              <point x="-16.166666666666515" y="-18.5" />
+              <point x="8020.914417531725" y="642.0" />
+              <point x="7986.831084198392" y="642.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="net.sf.json-lib:json-lib:jar:jdk15:2.4">
+              <point x="57.33333333333303" y="-18.5" />
+              <point x="8315.9173937222" y="1190.0" />
+              <point x="10435.417393722202" y="1190.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final/io.netty:netty-resolver:jar:4.1.43.Final">
+              <point x="52.333333333333485" y="-18.5" />
+              <point x="8435.226917531725" y="214.0" />
+              <point x="8530.500727055534" y="214.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1">
+              <point x="0.0" y="-18.5" />
+              <point x="669.5" y="652.0" />
+              <point x="448.2827161256628" y="652.0" />
+              <point x="51.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1">
+              <point x="76.5" y="-18.5" />
+              <point x="229.5" y="779.0" />
+              <point x="461.0" y="779.0" />
+              <point x="-64.875" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0">
+              <point x="34.65000000000009" y="-18.5" />
+              <point x="8346.484060388868" y="906.0" />
+              <point x="9162.417393722202" y="906.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.12">
+              <point x="-19.111111111111313" y="-18.5" />
+              <point x="8239.472949277757" y="1170.0" />
+              <point x="7408.767393722202" y="1170.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/com.google.code.findbugs:jsr305:jar:3.0.2">
+              <point x="42.0" y="-18.5" />
+              <point x="6284.788647223584" y="555.0" />
+              <point x="7453.206084198392" y="555.0" />
+              <point x="-21.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="8196.831084198391" y="194.0" />
+              <point x="8310.429298484105" y="194.0" />
+              <point x="-19.142857142857338" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final">
+              <point x="-75.0" y="-18.5" />
+              <point x="8532.667393722202" y="662.0" />
+              <point x="8327.081084198391" y="662.0" />
+              <point x="42.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="-39.5" y="-18.5" />
+              <point x="965.5019175317257" y="916.0" />
+              <point x="938.5" y="916.0" />
+              <point x="938.5" y="184.0" />
+              <point x="1795.8428138902514" y="184.0" />
+              <point x="-44.80000000000018" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="31.0" y="-18.5" />
+              <point x="1299.9999999999995" y="214.0" />
+              <point x="1834.242813890252" y="214.0" />
+              <point x="-6.399999999999636" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy:jar:1.10.4">
+              <point x="47.66666666666606" y="-18.5" />
+              <point x="4970.645833333332" y="769.0" />
+              <point x="5358.168584198393" y="769.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.code.gson:gson:jar:2.8.6">
+              <point x="-28.75" y="-18.5" />
+              <point x="7353.456084198392" y="642.0" />
+              <point x="6980.206084198392" y="642.0" />
+              <point x="19.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="8284.331084198391" y="204.0" />
+              <point x="8329.572155626964" y="204.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0">
+              <point x="-26.949999999999818" y="-18.5" />
+              <point x="8284.884060388868" y="896.0" />
+              <point x="6968.206084198392" y="896.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/org.codehaus.mojo:animal-sniffer-annotations:jar:1.17">
+              <point x="-21.0" y="-18.5" />
+              <point x="6221.788647223584" y="545.0" />
+              <point x="6077.040564755311" y="545.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2">
+              <point x="-63.33333333333394" y="-18.5" />
+              <point x="3894.7102508650587" y="769.0" />
+              <point x="3735.666666666666" y="769.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="32.75" y="-18.5" />
+              <point x="3112.6685841983926" y="555.0" />
+              <point x="3257.7499999999995" y="555.0" />
+              <point x="3257.7499999999995" y="194.0" />
+              <point x="1872.6428138902515" y="194.0" />
+              <point x="32.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-io:commons-io:jar:2.6">
+              <point x="42.34999999999991" y="-18.5" />
+              <point x="8354.184060388869" y="916.0" />
+              <point x="9346.417393722202" y="916.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2/jakarta.activation:jakarta.activation-api:jar:1.2.1">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.bouncycastle:bcpkix-jdk15on:jar:1.62">
+              <point x="26.949999999999818" y="-18.5" />
+              <point x="8338.784060388869" y="896.0" />
+              <point x="8901.167393722202" y="896.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE">
+              <point x="-71.35714285714312" y="-18.5" />
+              <point x="3706.8114413412495" y="1073.0" />
+              <point x="3157.7935841983926" y="1073.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="-7.9285714285715585" y="-18.5" />
+              <point x="3770.240012769821" y="1033.0" />
+              <point x="3621.666666666666" y="1033.0" />
+              <point x="3621.666666666666" y="174.0" />
+              <point x="1898.242813890252" y="174.0" />
+              <point x="57.600000000000364" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2">
+              <point x="-48.5" y="-18.5" />
+              <point x="4219.979166666666" y="769.0" />
+              <point x="4274.293584198393" y="769.0" />
+              <point x="20.125" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.8.1">
+              <point x="-38.222222222222626" y="-18.5" />
+              <point x="8220.361838166646" y="1180.0" />
+              <point x="6020.044179436488" y="1180.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE">
+              <point x="-13.16666666666697" y="-18.5" />
+              <point x="991.8352508650587" y="926.0" />
+              <point x="1001.5" y="926.0" />
+              <point x="-17.5" y="18.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.12" target="org.slf4j:slf4j-log4j12:jar:1.7.12/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="33.25" y="-18.5" />
+              <point x="7442.017393722202" y="1093.0" />
+              <point x="7439.267393722202" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.guava:guava:jar:28.0-android">
+              <point x="22.125" y="-18.5" />
+              <point x="6990.331084198392" y="779.0" />
+              <point x="6995.206084198392" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="75.0" y="-18.5" />
+              <point x="8682.667393722202" y="652.0" />
+              <point x="8653.042393722202" y="652.0" />
+              <point x="8653.042393722202" y="57.0" />
+              <point x="8366.889615944423" y="57.0" />
+              <point x="68.88888888888914" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE">
+              <point x="19.0" y="-18.5" />
+              <point x="2478.4870152963144" y="418.0" />
+              <point x="2491.9870152963144" y="418.0" />
+              <point x="2491.9870152963144" y="301.0" />
+              <point x="1071.5" y="301.0" />
+              <point x="52.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="-67.5" y="-18.5" />
+              <point x="7919.331084198392" y="418.0" />
+              <point x="7925.331084198392" y="418.0" />
+              <point x="7925.331084198392" y="77.0" />
+              <point x="8246.334060388868" y="77.0" />
+              <point x="-51.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-tcnative-boringssl-static:jar:2.0.28.Final">
+              <point x="57.75" y="-18.5" />
+              <point x="8369.584060388868" y="936.0" />
+              <point x="9786.417393722202" y="936.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.perfmark:perfmark-api:jar:0.17.0">
+              <point x="9.583333333333485" y="-18.5" />
+              <point x="7391.789417531725" y="642.0" />
+              <point x="7460.456084198392" y="642.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2">
+              <point x="63.33333333333394" y="-18.5" />
+              <point x="4021.3769175317266" y="749.0" />
+              <point x="4193.793584198393" y="749.0" />
+              <point x="-60.375" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE">
+              <point x="18.83333333333303" y="-18.5" />
+              <point x="1292.5435841983926" y="1073.0" />
+              <point x="1538.3769175317257" y="1073.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE">
+              <point x="-31.0" y="-18.5" />
+              <point x="1237.9999999999995" y="311.0" />
+              <point x="1036.5" y="311.0" />
+              <point x="17.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:apache-log4j-extras:jar:1.2.17">
+              <point x="-42.34999999999991" y="-18.5" />
+              <point x="8269.484060388868" y="916.0" />
+              <point x="6629.706084198392" y="916.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="48.5" y="-18.5" />
+              <point x="8085.581084198391" y="662.0" />
+              <point x="8098.331084198392" y="662.0" />
+              <point x="8098.331084198392" y="418.0" />
+              <point x="8273.331084198391" y="418.0" />
+              <point x="8273.331084198391" y="311.0" />
+              <point x="8369.810250865059" y="311.0" />
+              <point x="-13.083333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.opentest4j:opentest4j:jar:1.2.0">
+              <point x="-53.66666666666606" y="-18.5" />
+              <point x="4200.501917531727" y="652.0" />
+              <point x="3782.041666666666" y="652.0" />
+              <point x="30.25" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.29" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.29">
+              <point x="0.0" y="-18.5" />
+              <point x="-48.75" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1">
+              <point x="-58.79999999999927" y="-18.5" />
+              <point x="10376.617393722203" y="1093.0" />
+              <point x="9186.462015296314" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="7896.282716125663" y="769.0" />
+              <point x="8037.081084198391" y="769.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE">
+              <point x="-65.83333333333303" y="-18.5" />
+              <point x="939.1685841983926" y="926.0" />
+              <point x="906.833333333333" y="926.0" />
+              <point x="42.33333333333303" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.bouncycastle:bcpkix-jdk15on:jar:1.62" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.bouncycastle:bcpkix-jdk15on:jar:1.62/org.bouncycastle:bcprov-jdk15on:jar:1.62">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-stub:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0">
+              <point x="0.0" y="-18.5" />
+              <point x="6450.606084198393" y="662.0" />
+              <point x="6255.913647223584" y="662.0" />
+              <point x="13.125" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android/org.checkerframework:checker-compat-qual:jar:2.5.2">
+              <point x="-21.75" y="-18.5" />
+              <point x="5801.668584198393" y="418.0" />
+              <point x="5716.168584198393" y="418.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:apache-log4j-extras:jar:1.2.17" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:log4j:jar:1.2.17">
+              <point x="0.0" y="-18.5" />
+              <point x="6629.706084198392" y="779.0" />
+              <point x="6593.106084198393" y="779.0" />
+              <point x="26.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final">
+              <point x="-34.19999999999982" y="-18.5" />
+              <point x="8250.131084198392" y="545.0" />
+              <point x="8196.831084198391" y="545.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0">
+              <point x="39.64285714285688" y="-18.5" />
+              <point x="3817.8114413412495" y="1053.0" />
+              <point x="4632.479166666666" y="1053.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2">
+              <point x="-50.0" y="-18.5" />
+              <point x="4582.479166666666" y="759.0" />
+              <point x="4314.543584198393" y="759.0" />
+              <point x="60.375" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7">
+              <point x="19.111111111111313" y="-18.5" />
+              <point x="8277.69517149998" y="1170.0" />
+              <point x="8365.084060388868" y="1170.0" />
+              <point x="8365.084060388868" y="1093.0" />
+              <point x="8350.334060388868" y="1093.0" />
+              <point x="38.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final">
+              <point x="16.166666666666515" y="-18.5" />
+              <point x="8053.247750865058" y="652.0" />
+              <point x="8087.331084198392" y="652.0" />
+              <point x="8087.331084198392" y="408.0" />
+              <point x="8170.4310841983915" y="408.0" />
+              <point x="-26.40000000000009" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1">
+              <point x="52.75" y="-18.5" />
+              <point x="484.25" y="779.0" />
+              <point x="504.25" y="779.0" />
+              <point x="-21.625" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0">
+              <point x="-47.916666666666515" y="-18.5" />
+              <point x="7334.289417531725" y="652.0" />
+              <point x="6282.163647223584" y="652.0" />
+              <point x="39.375" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.protobuf:protobuf-java:jar:3.9.0">
+              <point x="-60.0" y="-18.5" />
+              <point x="5873.665564755311" y="779.0" />
+              <point x="5697.668584198393" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java:jar:3.10.0">
+              <point x="66.375" y="-18.5" />
+              <point x="7034.581084198392" y="779.0" />
+              <point x="7195.206084198392" y="779.0" />
+              <point x="-36.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java:jar:3.10.0">
+              <point x="-11.550000000000182" y="-18.5" />
+              <point x="8300.284060388869" y="876.0" />
+              <point x="7268.206084198392" y="876.0" />
+              <point x="36.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="-22.5" y="-18.5" />
+              <point x="7964.331084198392" y="184.0" />
+              <point x="8291.28644134125" y="184.0" />
+              <point x="-38.28571428571422" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.2">
+              <point x="-29.399999999999636" y="-18.5" />
+              <point x="10406.017393722203" y="1083.0" />
+              <point x="9398.462015296314" y="1083.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-api:jar:0.21.0">
+              <point x="28.75" y="-18.5" />
+              <point x="7410.956084198392" y="652.0" />
+              <point x="7559.331084198392" y="652.0" />
+              <point x="7559.331084198392" y="555.0" />
+              <point x="7598.081084198392" y="555.0" />
+              <point x="-40.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="57.0" y="-18.5" />
+              <point x="2516.4870152963144" y="418.0" />
+              <point x="2625.642813890251" y="418.0" />
+              <point x="2625.642813890251" y="204.0" />
+              <point x="1859.8428138902514" y="204.0" />
+              <point x="19.199999999999818" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0">
+              <point x="-40.333333333333485" y="-18.5" />
+              <point x="7855.949382792329" y="779.0" />
+              <point x="7382.206084198392" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE">
+              <point x="31.75" y="-18.5" />
+              <point x="896.25" y="779.0" />
+              <point x="846.3769175317266" y="779.0" />
+              <point x="846.3769175317266" y="311.0" />
+              <point x="966.5" y="311.0" />
+              <point x="-52.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE">
+              <point x="-55.5" y="-18.5" />
+              <point x="3722.6685841983926" y="1063.0" />
+              <point x="3308.7935841983926" y="1063.0" />
+              <point x="41.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE">
+              <point x="-18.83333333333303" y="-18.5" />
+              <point x="1254.8769175317266" y="1073.0" />
+              <point x="1005.0019175317257" y="1073.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="22.5" y="-18.5" />
+              <point x="8009.331084198392" y="388.0" />
+              <point x="8120.331084198392" y="388.0" />
+              <point x="8120.331084198392" y="291.0" />
+              <point x="8317.476917531725" y="291.0" />
+              <point x="-65.41666666666652" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE">
+              <point x="-57.0" y="-18.5" />
+              <point x="2402.4870152963144" y="418.0" />
+              <point x="1143.25" y="418.0" />
+              <point x="43.75" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="-18.125" y="-18.5" />
+              <point x="8453.747750865059" y="418.0" />
+              <point x="8446.997750865059" y="418.0" />
+              <point x="8446.997750865059" y="311.0" />
+              <point x="8422.143584198391" y="311.0" />
+              <point x="39.25" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="-68.40000000000009" y="-18.5" />
+              <point x="8215.931084198392" y="555.0" />
+              <point x="8109.331084198392" y="555.0" />
+              <point x="8109.331084198392" y="87.0" />
+              <point x="8263.55628261109" y="87.0" />
+              <point x="-34.44444444444434" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="-80.83333333333348" y="-18.5" />
+              <point x="7956.247750865058" y="662.0" />
+              <point x="7875.331084198392" y="662.0" />
+              <point x="7875.331084198392" y="67.0" />
+              <point x="8229.111838166646" y="67.0" />
+              <point x="-68.88888888888869" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE">
+              <point x="-57.33333333333303" y="-18.5" />
+              <point x="8201.250727055536" y="1190.0" />
+              <point x="3778.1685841983926" y="1190.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5">
+              <point x="58.79999999999927" y="-18.5" />
+              <point x="10494.217393722201" y="1093.0" />
+              <point x="10776.417393722202" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy-agent:jar:1.10.4">
+              <point x="0.0" y="-18.5" />
+              <point x="4922.979166666666" y="759.0" />
+              <point x="5183.668584198393" y="759.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.hyperledger.fabric:fabric-gateway-java:jar:1.4.2">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE">
+              <point x="-87.21428571428532" y="-18.5" />
+              <point x="3690.9542984841073" y="1083.0" />
+              <point x="2883.8769175317257" y="1083.0" />
+              <point x="2883.8769175317257" y="956.0" />
+              <point x="2827.7519175317257" y="956.0" />
+              <point x="70.125" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="18.125" y="-18.5" />
+              <point x="8489.997750865059" y="418.0" />
+              <point x="8477.372750865059" y="418.0" />
+              <point x="8477.372750865059" y="194.0" />
+              <point x="8367.857869912677" y="194.0" />
+              <point x="38.28571428571422" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/log4j:log4j:jar:1.2.17">
+              <point x="-50.05000000000018" y="-18.5" />
+              <point x="8261.784060388869" y="926.0" />
+              <point x="6523.206084198392" y="926.0" />
+              <point x="6523.206084198392" y="779.0" />
+              <point x="6567.106084198393" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1">
+              <point x="-76.5" y="-18.5" />
+              <point x="76.5" y="662.0" />
+              <point x="344.7827161256628" y="662.0" />
+              <point x="-51.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-test:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="3489.666666666666" y="184.0" />
+              <point x="1885.4428138902517" y="184.0" />
+              <point x="44.80000000000018" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final">
+              <point x="-54.375" y="-18.5" />
+              <point x="8417.497750865059" y="398.0" />
+              <point x="8249.631084198392" y="398.0" />
+              <point x="52.80000000000018" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.errorprone:error_prone_annotations:jar:2.3.2">
+              <point x="21.0" y="-18.5" />
+              <point x="6263.788647223584" y="545.0" />
+              <point x="6667.168584198393" y="545.0" />
+              <point x="-76.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE">
+              <point x="46.75" y="-18.5" />
+              <point x="2804.3769175317257" y="769.0" />
+              <point x="2964.5435841983926" y="769.0" />
+              <point x="-61.5" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.perfmark:perfmark-api:jar:0.17.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0/com.google.code.findbugs:jsr305:jar:3.0.2">
+              <point x="35.25" y="-18.5" />
+              <point x="21.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android/com.google.j2objc:j2objc-annotations:jar:1.1">
+              <point x="21.75" y="-18.5" />
+              <point x="5845.168584198393" y="418.0" />
+              <point x="5930.668584198393" y="418.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final">
+              <point x="80.83333333333348" y="-18.5" />
+              <point x="8117.914417531725" y="662.0" />
+              <point x="8241.581084198391" y="662.0" />
+              <point x="-42.75" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="45.0" y="-18.5" />
+              <point x="8652.667393722202" y="662.0" />
+              <point x="8642.042393722202" y="662.0" />
+              <point x="8642.042393722202" y="184.0" />
+              <point x="8387.000727055534" y="184.0" />
+              <point x="57.42857142857156" y="18.5" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6">
+              <point x="29.399999999999636" y="-18.5" />
+              <point x="10464.817393722202" y="1083.0" />
+              <point x="10623.917393722202" y="1083.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="38.75" y="-18.5" />
+              <point x="2516.6269175317257" y="515.0" />
+              <point x="2746.9870152963144" y="515.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="54.375" y="-18.5" />
+              <point x="8526.247750865059" y="418.0" />
+              <point x="8614.000727055534" y="418.0" />
+              <point x="8614.000727055534" y="67.0" />
+              <point x="8349.6673937222" y="67.0" />
+              <point x="51.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE">
+              <point x="93.75" y="-18.5" />
+              <point x="664.6269175317266" y="936.0" />
+              <point x="2687.5019175317257" y="936.0" />
+              <point x="-70.125" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec-http:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final">
+              <point x="34.19999999999982" y="-18.5" />
+              <point x="8318.531084198392" y="545.0" />
+              <point x="8377.872750865059" y="545.0" />
+              <point x="8377.872750865059" y="311.0" />
+              <point x="8395.976917531725" y="311.0" />
+              <point x="13.083333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE">
+              <point x="94.16666666666697" y="-18.5" />
+              <point x="1367.8769175317266" y="1093.0" />
+              <point x="2724.8769175317257" y="1093.0" />
+              <point x="2724.8769175317257" y="956.0" />
+              <point x="2781.0019175317257" y="956.0" />
+              <point x="23.375" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10/org.apache.httpcomponents:httpcore:jar:4.4.12">
+              <point x="-28.5" y="-18.5" />
+              <point x="9969.417393722202" y="779.0" />
+              <point x="9919.417393722202" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.api.grpc:proto-google-common-protos:jar:1.12.0">
+              <point x="60.0" y="-18.5" />
+              <point x="5993.665564755311" y="779.0" />
+              <point x="6236.106084198393" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2">
+              <point x="43.66666666666606" y="-18.5" />
+              <point x="4107.210250865059" y="956.0" />
+              <point x="4268.479166666666" y="956.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-protobuf-lite:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android">
+              <point x="-45.0" y="-18.5" />
+              <point x="5846.668584198393" y="555.0" />
+              <point x="5823.418584198393" y="555.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0">
+              <point x="71.35714285714312" y="-18.5" />
+              <point x="3849.5257270555358" y="1073.0" />
+              <point x="4958.729166666666" y="1073.0" />
+              <point x="35.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5">
+              <point x="-77.91666666666697" y="-18.5" />
+              <point x="2679.7102508650587" y="769.0" />
+              <point x="1814.4999999999995" y="769.0" />
+              <point x="52.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE">
+              <point x="89.33333333333303" y="-18.5" />
+              <point x="2106.4602508650587" y="946.0" />
+              <point x="2734.2519175317257" y="946.0" />
+              <point x="-23.375" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-contrib-grpc-metrics:jar:0.21.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.opencensus:opencensus-api:jar:0.21.0">
+              <point x="0.0" y="-18.5" />
+              <point x="7717.331084198392" y="555.0" />
+              <point x="7678.581084198392" y="555.0" />
+              <point x="40.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.xml.bind:jaxb-api:jar:2.3.1">
+              <point x="73.15000000000009" y="-18.5" />
+              <point x="8384.984060388868" y="956.0" />
+              <point x="10273.917393722202" y="956.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-transport:jar:4.1.43.Final/io.netty:netty-resolver:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="8530.500727055534" y="77.0" />
+              <point x="8332.445171499978" y="77.0" />
+              <point x="34.44444444444434" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="-69.0" y="-18.5" />
+              <point x="3666.666666666666" y="662.0" />
+              <point x="3657.5166666666664" y="662.0" />
+              <point x="3657.5166666666664" y="535.0" />
+              <point x="4082.7386472235853" y="535.0" />
+              <point x="-64.79999999999927" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.apache.logging.log4j:log4j-api:jar:2.12.1">
+              <point x="-34.5" y="-18.5" />
+              <point x="2890.9185841983926" y="535.0" />
+              <point x="3012.4870152963144" y="535.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="0.0" y="-18.5" />
+              <point x="8329.572155626964" y="97.0" />
+              <point x="8298.000727055534" y="97.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="34.5" y="-18.5" />
+              <point x="2959.9185841983926" y="545.0" />
+              <point x="3136.9870152963144" y="545.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="-84.0" y="-18.5" />
+              <point x="2605.3769175317257" y="662.0" />
+              <point x="2477.8769175317257" y="662.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE">
+              <point x="-32.75" y="-18.5" />
+              <point x="3047.1685841983926" y="495.0" />
+              <point x="2497.4870152963144" y="495.0" />
+              <point x="38.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.yaml:snakeyaml:jar:1.25">
+              <point x="77.91666666666697" y="-18.5" />
+              <point x="2835.5435841983926" y="779.0" />
+              <point x="4809.915564755311" y="779.0" />
+              <point x="-30.25" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="76.44444444444434" y="-18.5" />
+              <point x="8335.028504833313" y="1200.0" />
+              <point x="10579.417393722202" y="1200.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="50.05000000000018" y="-18.5" />
+              <point x="8361.884060388868" y="926.0" />
+              <point x="9533.417393722202" y="926.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-handler:jar:4.1.43.Final">
+              <point x="-15.0" y="-18.5" />
+              <point x="8592.667393722202" y="642.0" />
+              <point x="8508.122750865059" y="642.0" />
+              <point x="36.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.miracl.milagro.amcl:milagro-crypto-java:jar:0.4.0/com.google.guava:guava:jar:23.0">
+              <point x="47.75" y="-18.5" />
+              <point x="9210.167393722202" y="779.0" />
+              <point x="9237.167393722202" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2">
+              <point x="-43.66666666666606" y="-18.5" />
+              <point x="4019.8769175317266" y="956.0" />
+              <point x="3958.0435841983926" y="956.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="cn.edu.bit:java-fabric-demo:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12">
+              <point x="38.222222222222626" y="-18.5" />
+              <point x="8296.80628261109" y="1180.0" />
+              <point x="8982.462015296314" y="1180.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="55.5" y="-18.5" />
+              <point x="3833.6685841983926" y="1063.0" />
+              <point x="4809.479166666666" y="1063.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE">
+              <point x="56.25" y="-18.5" />
+              <point x="627.1269175317266" y="926.0" />
+              <point x="822.166666666667" y="926.0" />
+              <point x="-42.33333333333303" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10">
+              <point x="65.44999999999982" y="-18.5" />
+              <point x="8377.284060388869" y="946.0" />
+              <point x="9997.917393722202" y="946.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/io.perfmark:perfmark-api:jar:0.17.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.errorprone:error_prone_annotations:jar:2.3.2">
+              <point x="-35.25" y="-18.5" />
+              <point x="7425.206084198392" y="545.0" />
+              <point x="6819.168584198393" y="545.0" />
+              <point x="76.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.assertj:assertj-core:jar:3.13.2">
+              <point x="103.07142857142935" y="-18.5" />
+              <point x="3881.240012769822" y="1093.0" />
+              <point x="5856.049515296314" y="1093.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE">
+              <point x="-19.0" y="-18.5" />
+              <point x="2440.4870152963144" y="408.0" />
+              <point x="1299.9999999999995" y="408.0" />
+              <point x="31.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-protobuf-lite:jar:1.23.0">
+              <point x="0.0" y="-18.5" />
+              <point x="5933.665564755311" y="759.0" />
+              <point x="5891.668584198393" y="759.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final/io.netty:netty-codec-socks:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final">
+              <point x="67.5" y="-18.5" />
+              <point x="8054.331084198392" y="398.0" />
+              <point x="8144.031084198392" y="398.0" />
+              <point x="-52.80000000000018" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-protobuf-lite:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/io.grpc:grpc-api:jar:1.23.0">
+              <point x="45.0" y="-18.5" />
+              <point x="5936.668584198393" y="652.0" />
+              <point x="6203.413647223584" y="652.0" />
+              <point x="-39.375" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.yaml:snakeyaml:jar:1.25">
+              <point x="-73.15000000000009" y="-18.5" />
+              <point x="8238.684060388869" y="956.0" />
+              <point x="5461.729166666666" y="956.0" />
+              <point x="5461.729166666666" y="739.0" />
+              <point x="4870.415564755311" y="739.0" />
+              <point x="30.25" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-common:jar:4.1.43.Final">
+              <point x="-44.0" y="-18.5" />
+              <point x="8153.081084198392" y="97.0" />
+              <point x="8280.778504833312" y="97.0" />
+              <point x="-17.22222222222217" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-codec:jar:4.1.43.Final">
+              <point x="-45.0" y="-18.5" />
+              <point x="8562.667393722202" y="652.0" />
+              <point x="8388.872750865059" y="652.0" />
+              <point x="8388.872750865059" y="408.0" />
+              <point x="8223.231084198393" y="408.0" />
+              <point x="26.40000000000009" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/org.objenesis:objenesis:jar:2.6">
+              <point x="-47.66666666666606" y="-18.5" />
+              <point x="4875.3125" y="749.0" />
+              <point x="4976.165564755311" y="749.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE">
+              <point x="-46.75" y="-18.5" />
+              <point x="2710.8769175317257" y="759.0" />
+              <point x="2219.2499999999995" y="759.0" />
+              <point x="2219.2499999999995" y="214.0" />
+              <point x="1847.0428138902512" y="214.0" />
+              <point x="6.399999999999636" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.netty:netty-handler-proxy:jar:4.1.43.Final" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final/io.netty:netty-buffer:jar:4.1.43.Final">
+              <point x="-48.5" y="-18.5" />
+              <point x="7988.581084198391" y="652.0" />
+              <point x="7886.331084198392" y="652.0" />
+              <point x="7886.331084198392" y="174.0" />
+              <point x="8272.143584198391" y="174.0" />
+              <point x="-57.42857142857156" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE">
+              <point x="15.58333333333303" y="-18.5" />
+              <point x="2773.2102508650587" y="759.0" />
+              <point x="2892.5435841983926" y="759.0" />
+              <point x="2892.5435841983926" y="652.0" />
+              <point x="3036.2519175317257" y="652.0" />
+              <point x="-43.66666666666697" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE">
+              <point x="39.5" y="-18.5" />
+              <point x="1044.5019175317257" y="916.0" />
+              <point x="1237.9999999999995" y="916.0" />
+              <point x="-31.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-protobuf:jar:1.23.0/com.google.guava:guava:jar:26.0-android">
+              <point x="-30.0" y="-18.5" />
+              <point x="5903.665564755311" y="769.0" />
+              <point x="5781.168584198393" y="769.0" />
+              <point x="5781.168584198393" y="555.0" />
+              <point x="5794.418584198393" y="555.0" />
+              <point x="-29.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="0.0" y="-18.5" />
+              <point x="5127.226147223584" y="779.0" />
+              <point x="5523.668584198393" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.29">
+              <point x="-38.75" y="-18.5" />
+              <point x="2439.1269175317257" y="505.0" />
+              <point x="2605.9870152963144" y="505.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.netty:netty-codec-http2:jar:4.1.43.Final">
+              <point x="40.333333333333485" y="-18.5" />
+              <point x="7936.616049458997" y="779.0" />
+              <point x="8562.667393722202" y="779.0" />
+              <point x="-45.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/commons-logging:commons-logging:jar:1.2">
+              <point x="-19.25" y="-18.5" />
+              <point x="8292.584060388868" y="886.0" />
+              <point x="7167.206084198392" y="886.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/com.google.protobuf:protobuf-java-util:jar:3.10.0/com.google.code.gson:gson:jar:2.8.6">
+              <point x="-22.125" y="-18.5" />
+              <point x="6946.081084198392" y="779.0" />
+              <point x="6941.206084198392" y="779.0" />
+              <point x="-19.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2">
+              <point x="87.21428571428623" y="-18.5" />
+              <point x="3865.382869912679" y="1083.0" />
+              <point x="5350.729166666666" y="1083.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/io.grpc:grpc-netty:jar:1.23.0/io.grpc:grpc-core:jar:1.23.0/com.google.android:annotations:jar:4.1.1.4">
+              <point x="-9.583333333333485" y="-18.5" />
+              <point x="7372.622750865059" y="632.0" />
+              <point x="7303.956084198392" y="632.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10" target="org.hyperledger.fabric-sdk-java:fabric-sdk-java:jar:1.4.7/org.apache.httpcomponents:httpclient:jar:4.5.10/commons-codec:commons-codec:jar:1.13">
+              <point x="28.5" y="-18.5" />
+              <point x="10026.417393722202" y="779.0" />
+              <point x="10076.417393722202" y="779.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12/org.codehaus.jackson:jackson-core-asl:jar:1.9.12">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="48.5" y="-18.5" />
+              <point x="4316.979166666666" y="769.0" />
+              <point x="4478.549515296314" y="769.0" />
+              <point x="4478.549515296314" y="545.0" />
+              <point x="4212.338647223583" y="545.0" />
+              <point x="64.79999999999927" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2">
+              <point x="0.0" y="-18.5" />
+              <point x="4254.168584198393" y="642.0" />
+              <point x="4004.791666666666" y="642.0" />
+              <point x="57.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1/com.fasterxml.jackson.core:jackson-core:jar:2.10.1">
+              <point x="-52.75" y="-18.5" />
+              <point x="-17.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1">
+              <point x="18.75" y="-18.5" />
+              <point x="589.6269175317266" y="916.0" />
+              <point x="669.5" y="916.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.29">
+              <point x="-31.0" y="-18.5" />
+              <point x="1507.3769175317257" y="926.0" />
+              <point x="1512.9999999999995" y="926.0" />
+              <point x="1512.9999999999995" y="779.0" />
+              <point x="1478.4999999999995" y="779.0" />
+              <point x="48.75" y="18.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="917.0" y="433.0" />
+          <SelectedNodes>
+            <node>org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/common/ResponseCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/common/ServerResponse.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Init.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1235">
+        <state relative-caret-position="1120">
           <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -748,29 +2188,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthControllerV2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/t1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="672">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -783,7 +2235,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>java_fabric_demo:war</last-edited>
+          <last-edited>java_fabric_demo:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -855,7 +2307,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>bcprov-jdk15on-159</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-core:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
