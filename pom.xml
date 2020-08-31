@@ -67,12 +67,6 @@
             </exclusions>
         </dependency>
 
-        <!--fabric-sdk-java-->
-        <dependency>
-            <groupId>org.hyperledger.fabric-sdk-java</groupId>
-            <artifactId>fabric-sdk-java</artifactId>
-            <version>1.4.7</version>
-        </dependency>
         <dependency>
             <groupId>org.hyperledger.fabric</groupId>
             <artifactId>fabric-gateway-java</artifactId>
@@ -106,6 +100,15 @@
             <artifactId>jackson-mapper-asl</artifactId>
             <version>1.9.12</version>
         </dependency>
+
+        <!--genson-->
+         <!--https://mvnrepository.com/artifact/com.owlike/genson-->
+        <!--<dependency>-->
+            <!--<groupId>com.owlike</groupId>-->
+            <!--<artifactId>genson</artifactId>-->
+            <!--<version>1.5</version>-->
+        <!--</dependency>-->
+
     </dependencies>
 
 

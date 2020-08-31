@@ -1,6 +1,7 @@
 cn\edu\bit\utils\Init$1$1.class
 cn\edu\bit\utils\Init$1.class
 cn\edu\bit\Application.class
+cn\edu\bit\entity\AuthUser.class
 cn\edu\bit\utils\MyEnrollment.class
 cn\edu\bit\utils\CertUtils.class
 cn\edu\bit\utils\Init.class

@@ -1,12 +1,7 @@
 package cn.edu.bit.controller;
 
 import cn.edu.bit.utils.Init;
-import org.hyperledger.fabric.gateway.Contract;
-import org.hyperledger.fabric.gateway.Gateway;
-import org.hyperledger.fabric.gateway.Network;
-import org.hyperledger.fabric.gateway.Wallet;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.hyperledger.fabric.gateway.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +12,9 @@ import java.nio.file.Paths;
 @RequestMapping("/auth")
 public class AuthController {
 
-    private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
+    static {
+        System.setProperty("org.hyperledger.fabric.sdk.service_discovery.as_localhost", "true");
+    }
 
     @RequestMapping("/test")
     public String test() {
@@ -34,20 +31,16 @@ public class AuthController {
     @RequestMapping("/registerTop")
     public String registerTop(String ID, String MPK) throws Exception {
 
-        byte[] result;
-
-        // Load a file system based wallet for managing identities.
+//        Genson genson = new Genson();
         Path walletPath = Paths.get("wallet");
         Wallet wallet = Wallet.createFileSystemWallet(walletPath);
 
-        // load a CCP
         Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
         Gateway.Builder builder = Gateway.createBuilder();
         builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
 
-        // create a gateway connection
+        byte[] result;
         try (Gateway gateway = builder.connect()) {
-            // get the network and contract
             Network network = gateway.getNetwork("mychannel");
             Contract contract = network.getContract("Authentication");
             result = contract.submitTransaction("registerTop", ID, MPK);
@@ -57,7 +50,6 @@ public class AuthController {
 
     @RequestMapping("/registerNotTop")
     public String registerNotTop(String IDi, String IDi_1) throws Exception {
-        byte[] result;
 
         // Load a file system based wallet for managing identities.
         Path walletPath = Paths.get("wallet");
@@ -68,14 +60,14 @@ public class AuthController {
         Gateway.Builder builder = Gateway.createBuilder();
         builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
 
-        // create a gateway connection
+        byte[] resultBytes;
         try (Gateway gateway = builder.connect()) {
-            // get the network and contract
             Network network = gateway.getNetwork("mychannel");
             Contract contract = network.getContract("Authentication");
-            result = contract.submitTransaction("registerNotTop", IDi, IDi_1);
+
+            resultBytes = contract.submitTransaction("registerNotTop", IDi, IDi_1);
+            return new String(resultBytes);
         }
-        return new String(result);
     }
 
     @RequestMapping("/queryMPK")
@@ -117,11 +109,107 @@ public class AuthController {
             // get the network and contract
             Network network = gateway.getNetwork("mychannel");
             Contract contract = network.getContract("Authentication");
-            result = contract.submitTransaction("verifyAndUploadPara", IDi, IDi_1, message, signature);
+            result = contract.submitTransaction("verifyAndUpload", IDi, IDi_1, message, signature);
         }
         return new String(result);
     }
 
+//    @RequestMapping("/insert")
+//    public String insert(AuthUser user) throws Exception {
+//        Genson genson = new Genson();
+//        // Load a file system based wallet for managing identities.
+//        Path walletPath = Paths.get("wallet");
+//        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+//
+//        // load a CCP
+//        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+//        Gateway.Builder builder = Gateway.createBuilder();
+//        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+//
+//        byte[] result;
+//        try (Gateway gateway = builder.connect()) {
+//            // get the network and contract
+//            Network network = gateway.getNetwork("mychannel");
+//            Contract contract = network.getContract("Authentication");
+//            result = contract.submitTransaction("insert", genson.serialize(user));
+//        }
+//        return new String(result);
+//    }
+//
+//    @RequestMapping("/update")
+//    public String update(AuthUser user) throws Exception{
+//        Genson genson = new Genson();
+//        // Load a file system based wallet for managing identities.
+//        Path walletPath = Paths.get("wallet");
+//        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+//
+//        // load a CCP
+//        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+//        Gateway.Builder builder = Gateway.createBuilder();
+//        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+//
+//        byte[] result;
+//        try (Gateway gateway = builder.connect()) {
+//            // get the network and contract
+//            Network network = gateway.getNetwork("mychannel");
+//            Contract contract = network.getContract("Authentication");
+//            result = contract.submitTransaction("update", genson.serialize(user));
+//        }
+//        return new String(result);
+//    }
+//
+//    @RequestMapping("/query")
+//    public String query(AuthUser user) throws Exception{
+//        Genson genson = new Genson();
+//        // Load a file system based wallet for managing identities.
+//        Path walletPath = Paths.get("wallet");
+//        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+//
+//        // load a CCP
+//        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+//        Gateway.Builder builder = Gateway.createBuilder();
+//        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+//
+//        byte[] result;
+//        try (Gateway gateway = builder.connect()) {
+//            // get the network and contract
+//            Network network = gateway.getNetwork("mychannel");
+//            Contract contract = network.getContract("Authentication");
+//            result = contract.submitTransaction("query", user.getIdentify());
+//        }
+//        return new String(result);
+//    }
+//
+//    @RequestMapping("/queryMPK2")
+//    public String queryMPK2(AuthUser user) throws Exception{
+//        Genson genson = new Genson();
+//        // Load a file system based wallet for managing identities.
+//        Path walletPath = Paths.get("wallet");
+//        Wallet wallet = Wallet.createFileSystemWallet(walletPath);
+//
+//        // load a CCP
+//        Path networkConfigPath = Paths.get("..", "..", "first-network", "connection-org1.yaml");
+//        Gateway.Builder builder = Gateway.createBuilder();
+//        builder.identity(wallet, "user1").networkConfig(networkConfigPath).discovery(true);
+//
+//        byte[] result;
+//        try (Gateway gateway = builder.connect()) {
+//            // get the network and contract
+//            Network network = gateway.getNetwork("mychannel");
+//            Contract contract = network.getContract("Authentication");
+//            result = contract.submitTransaction("query", user.getIdentify());
+//            JSONObject object = JSONObject.fromObject(new String(result));
+//            AuthUser userTemp = genson.deserialize((String) object.get("data"), AuthUser.class);
+//            object.put("data", userTemp.getPublicParameter());
+//            return object.toString();
+//        }
+//    }
 
+//    @RequestMapping("/testGenson")
+//    public String testGenson() {
+//        Genson genson = new Genson();
+//        AuthUser user = new AuthUser("sdf", "sfsd", "dfsdf", 0, 0, "sdfsd", "afad");
+//        return genson.serialize(user);
+//    }
 }
 
