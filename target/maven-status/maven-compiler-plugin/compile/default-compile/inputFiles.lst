@@ -1,5 +1,7 @@
 D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\entity\AuthUser.java
+D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\controller\AuthController2.java
 D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\utils\CertUtils.java
 D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\controller\AuthController.java
 D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\Application.java
+D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\utils\Sha256Util.java
 D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\utils\Init.java

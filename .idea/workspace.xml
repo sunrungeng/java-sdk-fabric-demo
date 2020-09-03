@@ -7,23 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba2ddbb0-2ec3-4756-b4b6-4d1e508dddf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Sha256Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/t1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/t1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/common/JsonView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/common/ResponseCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/common/ServerResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bit/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/bit/entity/AuthUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/bit/entity/AuthUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java-fabric-demo-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/t1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/t1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+            <state relative-caret-position="104">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -73,38 +67,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+            <state relative-caret-position="1876">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#registerTop#0;class#AuthController#0" />
-                <element signature="e#1687#2994#0" />
-                <element signature="e#3000#3950#0" />
-                <element signature="e#4607#4639#0" />
+                <element signature="e#576#1066#0" />
+                <element signature="e#743#911#0" />
+                <element signature="e#917#2146#0" />
+                <element signature="e#3157#3511#0" />
+                <element signature="e#2436#3121#0" />
+                <element signature="e#2721#3110#0" />
+                <element signature="e#3108#3663#0" />
+                <element signature="e#3661#3972#0" />
+                <element signature="e#3970#4261#0" />
+                <element signature="e#4259#4545#0" />
+                <element signature="e#4543#4833#0" />
+                <element signature="e#4831#5130#0" />
+                <element signature="e#5128#5430#0" />
+                <element signature="e#5428#5742#0" />
+                <element signature="e#5740#6177#0" />
+                <element signature="e#6180#6227#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/t1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#sign2#0;class#t1#0" />
               </folding>
             </state>
           </provider>
@@ -158,12 +155,13 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/Common/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/common/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Sha256Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/t1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java" />
       </list>
     </option>
   </component>
@@ -184,11 +182,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-fabric-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="java-fabric" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-fabric-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="java-fabric" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -207,9 +205,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,37 +271,6 @@
               <item name="bit" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="bit" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_fabric_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_fabric_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -321,8 +288,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598864323215" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../keyR&amp;D/demo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599108589480" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bit_team/crossdomainauthentication" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -336,10 +303,10 @@
       <recent name="D:\code\chaincode\java_fabric_demo\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu.bit.common" />
       <recent name="cn.edu.bit.controller" />
-      <recent name="cn.edu.bit" />
       <recent name="cn.edu.bit.utils" />
+      <recent name="cn.edu.bit.common" />
+      <recent name="cn.edu.bit" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\chaincode\java_fabric_demo\src\main\java\cn\edu\bit\Common" />
@@ -460,18 +427,22 @@
       <workItem from="1598293022427" duration="597000" />
       <workItem from="1598545135418" duration="7140000" />
       <workItem from="1598714661463" duration="14991000" />
-      <workItem from="1598837836300" duration="5717000" />
+      <workItem from="1598837836300" duration="8908000" />
+      <workItem from="1598880685213" duration="37000" />
+      <workItem from="1598951568365" duration="6569000" />
+      <workItem from="1599013158244" duration="42000" />
+      <workItem from="1599025648594" duration="20227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102573000" />
+    <option name="totallyTimeSpent" value="132639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29291844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19366953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -499,7 +470,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.393726" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.39324033" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
@@ -516,13 +487,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.4.7/fabric-sdk-java-1.4.7.jar!/org/hyperledger/fabric/sdk/TransactionRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.4.7/fabric-sdk-java-1.4.7.jar!/org/hyperledger/fabric/sdk/TransactionProposalRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -2184,7 +2148,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/common/JsonView.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController2.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric/fabric-gateway-java/1.4.2/fabric-gateway-java-1.4.2.jar!/org/hyperledger/fabric/gateway/Gateway.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -2192,10 +2155,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/utils/Sha256Util.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/entity/AuthUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -2211,33 +2177,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/t1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sign2#0;class#t1#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        <state relative-caret-position="104">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1960">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#AuthController#0" />
+            <element signature="e#572#740#0" />
+            <element signature="e#1553#2479#0" />
+            <element signature="e#3441#4491#0" />
+            <element signature="e#4497#5713#0" />
+            <element signature="e#5719#6691#0" />
+            <element signature="e#6701#7665#0" />
+            <element signature="e#6697#7644#0" />
+            <element signature="e#7650#8601#0" />
+            <element signature="e#8607#9567#0" />
+            <element signature="e#10535#11497#0" />
+            <element signature="e#11505#12468#0" />
+            <element signature="e#9573#10671#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/bit/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+        <state relative-caret-position="1876">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registerTop#0;class#AuthController#0" />
-            <element signature="e#1687#2994#0" />
-            <element signature="e#3000#3950#0" />
-            <element signature="e#4607#4639#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/t1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#576#1066#0" />
+            <element signature="e#743#911#0" />
+            <element signature="e#917#2146#0" />
+            <element signature="e#3157#3511#0" />
+            <element signature="e#2436#3121#0" />
+            <element signature="e#2721#3110#0" />
+            <element signature="e#3108#3663#0" />
+            <element signature="e#3661#3972#0" />
+            <element signature="e#3970#4261#0" />
+            <element signature="e#4259#4545#0" />
+            <element signature="e#4543#4833#0" />
+            <element signature="e#4831#5130#0" />
+            <element signature="e#5128#5430#0" />
+            <element signature="e#5428#5742#0" />
+            <element signature="e#5740#6177#0" />
+            <element signature="e#6180#6227#0" />
           </folding>
         </state>
       </provider>
